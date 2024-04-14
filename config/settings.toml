@@ -1,0 +1,36 @@
+dynaconf_merge = true
+
+[default]
+    mode = "default"
+    source_file = "download_list.json"
+    download_path = "chunk"
+    combine_path = "conbine"
+    number_of_downloads = 5
+    number_of_threads_in_the_download = 10
+
+[development]
+    mode = "development"
+    source_file = "download_list.json"
+    download_path = "chunk"
+    combine_path = "conbine"
+    number_of_downloads = 5
+    number_of_threads_in_the_download = 10
+
+
+[testing]
+    mode = "testing"
+    source_file = "download_list.json"
+    download_path = "chunk"
+    combine_path = "conbine"
+    number_of_downloads = 5
+    number_of_threads_in_the_download = 10
+
+
+[production]
+    mode = "production"
+    source_file = "download_list.json"
+    download_path = "chunk"
+    combine_path = "conbine"
+    number_of_downloads = 5
+    number_of_threads_in_the_download = 10
+
